@@ -1,4 +1,4 @@
-import { previousOperandTextElement, currentOperandTextElement } from './calculatorConsts'
+import { previousOperandTextElement, currentOperandTextElement } from './calculatorConsts.js'
 
 export class Calculator {
   constructor (previousOperandTextElement, currentOperandTextElement) {

@@ -1,4 +1,4 @@
-import { numberButtons, operationButtons, equalsButton, deleteButton, allClearButton, calculator } from './calculatorConsts'
+import { numberButtons, operationButtons, equalsButton, deleteButton, allClearButton, calculator } from './calculatorConsts.js'
 
 numberButtons.forEach(button => {
   button.addEventListener('click', () => {
